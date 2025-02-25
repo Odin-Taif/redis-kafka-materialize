@@ -2,6 +2,7 @@ name = "cf-url-shortener"
 account_id = "d7c39ce11b3d2ece25f80f52709d02f1"
 workers_dev = true
 compatibility_date = "2022-03-25"
+
 [observability]
 enabled = true
 head_sampling_rate = 1 # optional. default = 1.
@@ -10,6 +11,7 @@ head_sampling_rate = 1 # optional. default = 1.
 
 # [secrets]
 # Do not use plaintext environment variables to store sensitive information. Use `wrangler secret put` instead.
+# BROKER_KAF_REST_URL  
 # UPSTASH_REDIS_REST_URL
 # UPSTASH_REDIS_REST_TOKEN
 

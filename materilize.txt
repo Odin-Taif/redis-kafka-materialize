@@ -1,0 +1,3 @@
+CREATE CONNECTION kafka_conn
+  FOR KAFKA BROKER 'kafka.levantisk.com:8082'
+  WITH (validate = false);

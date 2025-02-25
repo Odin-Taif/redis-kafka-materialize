@@ -19,13 +19,9 @@ The demo app has the following structure:
 
 A demo of the app can be found here:
 
-https://cf-url-shortener.bobbyiliev.workers.dev/admin
-
 ## Diagram
 
 The following is a diagram of the app structure:
-
-![Diagram of Upstash and Materialize demo](https://user-images.githubusercontent.com/21223421/160150800-2d304712-13c1-4d15-910a-9f99b7b33771.png)
 
 ## Demo
 
@@ -240,4 +236,5 @@ CREATE SINK stats_sink
         "fields": { "name": "data", "type": "bytes" }
     }';
 ``` --># redis-kafka-materialize
+
 # redis-kafka-materialize

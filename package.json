@@ -15,6 +15,7 @@
     },
     "dependencies": {
         "@upstash/kafka": "^1.2.2",
+        "@upstash/qstash": "^2.7.22",
         "@upstash/redis": "^1.0.3",
         "itty-router": "^2.1.9",
         "serverless-cloudflare-workers": "^1.2.0"
